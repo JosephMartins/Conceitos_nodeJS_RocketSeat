@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "backend",
   "version": "1.0.0",
@@ -19,3 +20,26 @@
     "supertest": "^4.0.2"
   }
 }
+=======
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^7.0.3",
+    "uuidv4": "^6.0.7"
+  },
+  "devDependencies": {
+    "jest": "^25.2.6",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
+>>>>>>> 8c62bdc7dd46eeddfa0baa766e41427b2503a8d5
